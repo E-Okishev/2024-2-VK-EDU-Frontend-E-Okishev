@@ -1,6 +1,6 @@
 # Домашнее задание 1: Функции и тесты
 
-Прошу @martinkomitsky, @haseprogram, @kgrechin или @ваш_назначенный_ментор проверить его.
+Прошу @martinkomitsky, @haseprogram, @kgrechin или @1marbur1 проверить его.
 
 Что было сделано:
 
