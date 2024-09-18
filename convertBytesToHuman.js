@@ -25,9 +25,9 @@ export default function convertBytesToHuman(bytes) {
   const value = (bytes / Math.pow(1024, i));
   let formattedValue;
   if (value % 1 === 0) {
-    formattedValue = value
+    formattedValue = value;
   } else {
     formattedValue = value.toFixed(2);
   }
-  return `${formattedValue} ${sizes[i]}`
+  return `${formattedValue} ${sizes[i]}`;
 }

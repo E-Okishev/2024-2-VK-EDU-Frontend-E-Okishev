@@ -28,10 +28,10 @@ export default function nonUniqueElements(data) {
   const obj = {};
 
   for (let i = 0; i < data.length; i++) {
-    obj[data[i]] ? obj[data[i]] += 1 : obj[data[i]] = 1
+    obj[data[i]] ? obj[data[i]] += 1 : obj[data[i]] = 1;
   }
 
   return data.filter(num => {
-    return obj[num] > 1
+    return obj[num] > 1;
   })
 }
