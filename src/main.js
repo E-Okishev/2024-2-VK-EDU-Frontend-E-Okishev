@@ -1,4 +1,4 @@
-import './index.css';
+import './style.css';
 
 const STORAGE_KEY = 'chatMessages';
 
@@ -105,4 +105,3 @@ function toBottom() {
 // Инициализация: рендерим сообщения из localStorage
 renderMessages();
 toBottom()
-
