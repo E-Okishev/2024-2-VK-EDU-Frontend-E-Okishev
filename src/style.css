@@ -107,7 +107,7 @@ a {
 }
 
 .main {
-  background-image: url("../public/Background.png");
+  background-image: url("/Background.png");
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
