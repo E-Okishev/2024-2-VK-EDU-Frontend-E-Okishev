@@ -1,5 +1,3 @@
-import '../src/style.css';
-
 const STORAGE_KEY = 'chatMessages';
 
 let dialog = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [
